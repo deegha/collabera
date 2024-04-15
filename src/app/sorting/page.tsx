@@ -24,5 +24,9 @@ export default function Sorting() {
     console.log(result);
   }, []);
 
-  return <div>output is:</div>;
+  return (
+    <div>
+      input: getSumIndexes([1, 2, 3, 4], 6) - output is in the console log
+    </div>
+  );
 }

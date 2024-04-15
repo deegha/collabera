@@ -1,0 +1,15 @@
+.heading {
+  color: #747d8c;
+  font-size: 20px;
+  padding: 30px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  a {
+    color: #747d8c;
+  }
+}
