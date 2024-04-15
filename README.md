@@ -4,7 +4,7 @@ This is a simple app I created for a interview question I got.
 
 ### Project structure
 
-I have followed a simple next js app router project structure. All routers are in app page. All the reusable components are in the components directory
+I have followed a simple next js app router project structure. All routers are in app directory. All the reusable components are in the components directory
 
 ### How to set up
 
