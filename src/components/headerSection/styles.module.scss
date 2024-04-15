@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px;
+  border-bottom: 1px solid #f1f2f6;
+
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
+}
+
+.mobileContainer {
+  display: none;
+
+  @media screen and (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    width: 100&;
+  }
+}
+
+.mobileHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 35px;
+}
+
+.mobileNav {
+  padding: 10px;
+}
+
+.mobileNavClosed {
+  @extend .mobileNav;
+  display: none;
+}
+
+.mobileNavOpen {
+  @extend .mobileNav;
+  display: block;
+  animation: appear 1s linear;
+}
+
+@keyframes appear {
+  from {
+    top: 0px;
+  }
+
+  to {
+    top: 200px;
+  }
+}
+
+.mobileRightIconset {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  svg {
+    color: #747d8c;
+  }
+}

@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+
+  color: #a4b0be;
+  font-size: 12px;
+  cursor: pointer;
+
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+}
